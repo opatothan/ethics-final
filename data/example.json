@@ -1,0 +1,39 @@
+{
+    "0": {
+        "event_text": [
+            "example event text",
+            "event text can be on different lines",
+            "or they can just be a single string"
+        ],
+        "choices" : [
+            {
+                "text": "choice1",
+                "score" : 1,
+                "income" : 100,
+                "next" : "1" 
+            },
+            {
+                "text": "choice2",
+                "score" : 2,
+                "next" : "2"
+            },
+            {
+                "text": "choice2",
+                "score" : 3,
+                "next" : "3"
+            }
+        ]
+    },
+    "1": {
+        "event_text": "example end 1",
+        "choices" : []
+    },
+    "2": {
+        "event_text": "example end 2",
+        "choices" : []
+    },
+    "3": {
+        "event_text": "example end 3",
+        "choices" : []
+    }
+}

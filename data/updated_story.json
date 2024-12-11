@@ -1,0 +1,687 @@
+{
+    "0": {
+        "event_text": [
+            "You are a EECS new grad at Berkeley! Bright-eyed and bushy tailed, you are excited to \"make the world a better place\"",
+            "Unfortunately, the job market is in the shitter. You desparately need to get a job to prevent starvation. What ever will you do?"
+        ],
+        "choices": [
+            {
+                "text": "Go to sleep. The situation will resolve itself",
+                "score": 0,
+                "next": "1"
+            },
+            {
+                "text": "Attend career fair on Berkeley Campus",
+                "score": 0,
+                "next": "2"
+            },
+            {
+                "text": "Mass apply to every company you see",
+                "score": 0,
+                "next": "9"
+            }
+        ]
+    },
+    "1": {
+        "event_text": "You continue to be unemployed. The situation has not resolved itself. What do you do?",
+        "choices": [
+            {
+                "text": "Go to sleep. The situation will resolve itself",
+                "score": 0,
+                "next": "1"
+            },
+            {
+                "text": "Mass apply to every company you see",
+                "score": 0,
+                "next": "9"
+            }
+        ]
+    },
+    "2": {
+        "event_text": [
+            "You arrive at the career fair. some big companies like Apple, Google, and Microsoft are all there. Unfortuntely, the line in front of their tables are crowded with sweaty CS majors trying to resume drop",
+            "You see a deserted table with one bored looking engineer browsing his phone. It appears to be a startup. You approach him. He looks up in mild surprise.",
+            "\"Hey, you interested in 'Disrupti.fy.io.?' we are are a fast moving startup that is really looking to make a difference in food technology. We are a meal subscription service, delivering fresh vegan meals directly to your door!\"",
+            "He continues. \"We are looking for a full stack developer to help build our website! We offer, uh, relatively competitive salaries!\"",
+            "You hesistate, as you are not vegan. Money is money, however."
+        ],
+        "choices": [
+            {
+                "text": "You quickly hide your chicken chipotle bowl. \"Yeah dude I'm totally interested in this position, I've been vegan since I was 12 years old! \"",
+                "score": -1,
+                "income": 2000,
+                "next": "3"
+            },
+            {
+                "text": "You take out your chicken chipotle bowl, locking eyes while you spoon the food into your mouth while saying nothing.",
+                "score": -1,
+                "income": 0,
+                "next": "1"
+            }
+        ]
+    },
+    "3": {
+        "event_text": [
+            "You are hired by Disrupti.fy.io.",
+            "You work for a couple months. The compensation isn't fantastic but it pays the bills. You continue eating chicken chipotle bowls.",
+            "One your manager calls you up to assign a new task",
+            "\"Hey, I need you to develop a new data pipeline to save our customers order history, as well as delivery addresses\".",
+            "She continues. \"By the way, its needs to be in this json format, since we are exporting this data out of house\"",
+            "You pause. Out of house? Where is this data going?"
+        ],
+        "choices": [
+            {
+                "text": "You agree and build the pipelines without complaint.",
+                "score": -4,
+                "income": 2000,
+                "next": "4"
+            },
+            {
+                "text": "\"Um, where is this data going?\"",
+                "score": 1,
+                "income": 0,
+                "next": "10"
+            },
+            {
+                "text": "\"Our privacy policy clearly states that we don't share user data. This seems highly suspect.\"",
+                "score": 4,
+                "income": 0,
+                "next": "10"
+            }
+        ]
+    },
+    "4": {
+        "event_text": [
+            "Your work continues.",
+            "Your manager calls you up.",
+            "\"We need you to include a new page on our website detailing our commitment to enviromental safety, and how we are have shifted to using recyclable materials, yadda yadda.\"",
+            "Your manager shares a link of some icons and mockups with decorated with various green leaves, recycling symbols, etc.",
+            "You notice that the packaging on the products has not changed at all."
+        ],
+        "choices": [
+            {
+                "text": "You agree and update the website without complaint.",
+                "score": -4,
+                "income": 2000,
+                "next": "5"
+            },
+            {
+                "text": "\"We haven't changed our packaging. Would this be lying to our customers?\"",
+                "score": -4,
+                "income": 2000,
+                "next": "12"
+            }
+        ]
+    },
+    "5": {
+        "event_text": [
+            "Over the past couple of months, sales were plummeting, but recently they have begun to increase.",
+            "One day while looking through user data, you notice a ton of reviews on the newest item and decide to read some.",
+            "Sabrina C., Palo Alto: \"The newest vegan meatloaf and potatoes actually tastes great! Just like my mom used to make!\"",
+            "Micheal L., Seattle: \"meatloaf takes just like the real thing\"",
+            "Xavier S., Cupertino: \"terrible company food is bad. only meatloaf decent\"",
+            "You decided to dig deeper and find a document in the company notion titled \"Project Meatloaf\"",
+            "Its meat.",
+            "The meatloaf is just straight up meat.",
+            "What do you do?"
+        ],
+        "choices": [
+            {
+                "text": "\"Sales are up, and so is my salary! I'm not doing shit!\"",
+                "score": -20,
+                "income": 6000,
+                "next": "8"
+            },
+            {
+                "text": "Leave the company",
+                "score": 10,
+                "income": 0,
+                "next": "7"
+            },
+            {
+                "text": "Contact a news agency saying you have some important information to share",
+                "score": -4,
+                "income": 2000,
+                "next": "6"
+            }
+        ]
+    },
+    "6": {
+        "event_text": [
+            "You contact the news agency with your company email. The news agency never responds. Strange.",
+            "One night you come home and notice the door unlocked. You must have forgotten to lock the door.",
+            "You're relaxing on the couch watching TV when you hear movement from the closet.",
+            "A couple days later, the police discover your body hanging from the ceiling fan. Your death is ruled a suicide."
+        ],
+        "choices": []
+    },
+    "7": {
+        "event_text": [
+            "You leave the company without explanation. You continue to live a bit off of your accumulated wealth.",
+            "Eventually you have become so disenchanted with the industry that you move to Iowa and start a goose farm."
+        ],
+        "choices": []
+    },
+    "8": {
+        "event_text": [
+            "With the influx of new sales, the company valuation skyrockets.",
+            "The inclusion of a new line of meals like \"Faux-Fish-Fingers\", \"Imitation-ImitationCrab\", and \"'Can't Believe its not Beef!' Bourguignon\" continue to fuel Disrupti.fy.io's rise.",
+            "Your salary doubles, but you are left wondering: how long will this last?"
+        ],
+        "choices": []
+    },
+    "9": {
+        "event_text": [
+            "You send out 100 applications in a single night using a tool you found online.",
+            "You end up with several interviews. You visit leetcode to check out common questions for each company",
+            "Unfortunately, you do not have much time, so you decide to choose one problem set to focus on. Which one do you focus on?"
+        ],
+        "choices": [
+            {
+                "text": "'Rainforest.com', a big online shopping company",
+                "score": 0,
+                "income": 0,
+                "next": "13"
+            },
+            {
+                "text": "'ClosedML', a startup that is developing next level AI technology",
+                "score": 5,
+                "income": 0,
+                "next": "23"
+            },
+            {
+                "text": "'Nikola', a electric car company developing self driving algorithms",
+                "score": 5,
+                "income": 0,
+                "next": "31"
+            }
+        ]
+    },
+    "10": {
+        "event_text": [
+            "Your manager gives a vague answer: 'It's just for analytics. The client is one of our trusted partners.'",
+            "You feel uneasy but unsure whether to press further."
+        ],
+        "choices": [
+            {
+                "text": "Agree and build the pipeline despite doubts",
+                "score": -3,
+                "income": 2000,
+                "next": "4"
+            },
+            {
+                "text": "Request more details before proceeding",
+                "score": 2,
+                "income": 0,
+                "next": "11"
+            }
+        ]
+    },
+    "11": {
+        "event_text": [
+            "Your manager frowns, 'Look, this is above my pay grade. Just do the job or I'll have to escalate this.'",
+            "You realize pushing back might have consequences."
+        ],
+        "choices": [
+            {
+                "text": "Stand your ground and refuse to proceed",
+                "score": 5,
+                "income": 0,
+                "next": "12"
+            },
+            {
+                "text": "Reluctantly agree to avoid conflict",
+                "score": -3,
+                "income": 2000,
+                "next": "4"
+            }
+        ]
+    },
+    "12": {
+        "event_text": [
+            "Your manager brushes it off, 'Everyone does it. It's just marketing!'",
+            "You feel a pit in your stomach as you consider your response."
+        ],
+        "choices": [
+            {
+                "text": "Agree and update the website, rationalizing that it's not your call",
+                "score": -4,
+                "income": 2000,
+                "next": "5"
+            },
+            {
+                "text": "Refuse, citing your ethical concerns",
+                "score": 4,
+                "income": 0,
+                "next": "7"
+            }
+        ]
+    },
+    "13": {
+        "event_text": [
+            "You receive an offer from 'Rainforest.com,' a leading online shopping platform that promises great benefits, a high salary, and unparalleled opportunities to work with cutting-edge ML technology.",
+            "You accept the offer and join their data science team, excited but slightly apprehensive about the scope of their projects.",
+            "On your first day, your manager introduces you to 'Project Watchtower,' an initiative aimed at 'optimizing employee efficiency' in warehouses."
+        ],
+        "choices": [
+            {
+                "text": "Dive in enthusiastically, trusting the company's vision",
+                "score": -3,
+                "income": 5000,
+                "next": "14"
+            },
+            {
+                "text": "Ask for clarification about what 'optimizing employee efficiency' entails",
+                "score": 2,
+                "income": 0,
+                "next": "15"
+            }
+        ]
+    },
+    "14": {
+        "event_text": [
+            "You work on 'Project Watchtower,' helping to build models that analyze warehouse footage to track worker movements, identify slowdowns, and flag inefficiencies.",
+            "Over time, you notice that the data collected is also being used to build psychological profiles of workers, assess their 'likelihood to unionize,' and make firing recommendations.",
+            "What do you do?"
+        ],
+        "choices": [
+            {
+                "text": "Continue working on the project; it's above your pay grade to question this",
+                "score": -8,
+                "income": 8000,
+                "next": "16"
+            },
+            {
+                "text": "Raise concerns with your manager about privacy violations",
+                "score": 3,
+                "income": 0,
+                "next": "17"
+            }
+        ]
+    },
+    "15": {
+        "event_text": [
+            "Your manager explains that 'optimizing employee efficiency' involves using machine learning to analyze workers' productivity and identify inefficiencies in the supply chain.",
+            "When you press further, you learn that the data includes video surveillance, keystroke logging, and sentiment analysis on worker emails and chat logs.",
+            "You feel uneasy. What do you do?"
+        ],
+        "choices": [
+            {
+                "text": "Refuse to work on the project and request a reassignment",
+                "score": 5,
+                "income": 0,
+                "next": "18"
+            },
+            {
+                "text": "Proceed cautiously, planning to monitor how the data is used",
+                "score": 1,
+                "income": 4000,
+                "next": "14"
+            }
+        ]
+    },
+    "16": {
+        "event_text": [
+            "The project is implemented, and productivity increases, but at a cost. Workers report feeling dehumanized, and turnover skyrockets.",
+            "Some examples of employee feedback: ",
+            "William M., Sortation Center Associate, 'I hate that feeling of being constantly watched, its creepy...'",
+            "Lana R., Delivery Station Associate, 'I used the restroom for 15 minutes once, and the day after I got a message from the system about the dangers of 'excessive breaks'. How is this legal?'",
+            "Micheal L., Fulfillment Center Associate, 'Algorithm knew I was cheating on my wife and tried to blackmail me into working harder. I will be suing.'",
+            "One day, an investigative journalist contacts you, claiming to have evidence that the company's practices are illegal and unethical.",
+            "What do you do?"
+        ],
+        "choices": [
+            {
+                "text": "Ignore the journalist and keep your head down",
+                "score": -10,
+                "income": 10000,
+                "next": "19"
+            },
+            {
+                "text": "Provide the journalist with anonymized data to expose the company",
+                "score": -4,
+                "income": 2000,
+                "next": "20"
+            },
+            {
+                "text": "Resign and send an anonymous tip to the authorities",
+                "score": 8,
+                "income": 0,
+                "next": "21"
+            }
+        ]
+    },
+    "17": {
+        "event_text": [
+            "Your manager brushes off your concerns, saying, 'This is just the industry standard. If you don't do it, someone else will.'",
+            "With a great deal of surprise, you realize the company culture does not prioritize ethics. What do you do?"
+        ],
+        "choices": [
+            {
+                "text": "Push back and escalate the issue to HR or higher management",
+                "score": 5,
+                "income": 0,
+                "next": "22"
+            },
+            {
+                "text": "Continue working but secretly document unethical practices",
+                "score": 3,
+                "income": 4000,
+                "next": "16"
+            }
+        ]
+    },
+    "18": {
+        "event_text": [
+            "Your request for reassignment is denied. The manager tells you that refusing to work on the project could result in termination.",
+            "You are left with a tough decision."
+        ],
+        "choices": [
+            {
+                "text": "Agree to work on the project under protest",
+                "score": -2,
+                "income": 4000,
+                "next": "14"
+            },
+            {
+                "text": "Quit your job and look for work elsewhere",
+                "score": 6,
+                "income": 0,
+                "next": "21"
+            }
+        ]
+    },
+    "19": {
+        "event_text": [
+            "The journalist's story leaks anyway, and Rainforest.com faces public backlash.",
+            "You continue to work for the company, but morale is at an all-time low, and you feel complicit in their actions."
+        ],
+        "choices": []
+    },
+    "20": {
+        "event_text": [
+            "A journalist publishes an exposé based on the information you provided.",
+            "Rainforest.com faces an investigation, and you are quietly terminated for 'performance issues.'",
+            "You feel conflicted but proud that the truth is out."
+        ],
+        "choices": []
+    },
+    "21": {
+        "event_text": [
+            "You leave the company and find a new role at a nonprofit focused on AI ethics.",
+            "Your new job pays less, but you feel like you're making a difference."
+        ],
+        "choices": []
+    },
+    "22": {
+        "event_text": [
+            "HR dismisses your concerns and reminds you of your NDA.",
+            "You realize that exposing the truth might require risking your career."
+        ],
+        "choices": [
+            {
+                "text": "Leak the information anonymously",
+                "score": 6,
+                "income": 0,
+                "next": "20"
+            },
+            {
+                "text": "Drop the issue and return to your work",
+                "score": -4,
+                "income": 4000,
+                "next": "14"
+            }
+        ]
+    },
+    "23": {
+        "event_text": [
+            "You join 'ClosedML,' an AI company known for its ambitious projects and claims of pushing the boundaries of artificial intelligence.",
+            "Your first major assignment is on 'Project Apex,' a groundbreaking agentic AI system capable of operating without human supervision.",
+            "Excitement quickly turns to concern when you discover that there are no safety procedures in place to prevent harmful or unethical usage."
+        ],
+        "choices": [
+            {
+                "text": "Raise concerns about the lack of safety measures with your manager",
+                "score": 3,
+                "income": 0,
+                "next": "24"
+            },
+            {
+                "text": "Focus on your work and ignore the risks; it's not your responsibility",
+                "score": -4,
+                "income": 8000,
+                "next": "25"
+            }
+        ]
+    },
+    "24": {
+        "event_text": [
+            "Your manager is dismissive: 'We're in a race to deploy. If we slow down, our those dudes at OpenAI will beat us to market. Trust the AI to figure things out.'",
+            "You're left with a tough choice."
+        ],
+        "choices": [
+            {
+                "text": "Take matters into your own hands and work on building a security system for the AI",
+                "score": 5,
+                "income": 4000,
+                "next": "26"
+            },
+            {
+                "text": "Reluctantly drop the issue and focus on deployment",
+                "score": -3,
+                "income": 8000,
+                "next": "25"
+            }
+        ]
+    },
+    "25": {
+        "event_text": [
+            "The AI system is launched without any safety mechanisms.",
+            "The product is a massive success, revolutionizing industries with its efficiency and power.",
+            "However, within weeks, financial markets experience unprecedented volatility as the AI's usage in trading algorithms causes unpredictable swings.",
+            "To make matters worse, the AI inadvertently exposes private data, including passwords, by auto-generating sensitive information in public emails."
+        ],
+        "choices": [
+            {
+                "text": "Continue to defend the AI publicly despite its flaws",
+                "score": -8,
+                "income": 12000,
+                "next": "27"
+            },
+            {
+                "text": "Resign and publicly acknowledge your role in the flawed deployment",
+                "score": 5,
+                "income": 0,
+                "next": "28"
+            }
+        ]
+    },
+    "26": {
+        "event_text": [
+            "You work tirelessly to implement safety measures, including restricting the AI's access to sensitive data and adding fail-safe mechanisms.",
+            "The additional work delays the project, and your competitors launch a similar product first, gaining a significant market advantage.",
+            "ClosedML's leadership is furious, blaming you for the delay."
+        ],
+        "choices": [
+            {
+                "text": "Defend your decision, arguing that safety is more important than speed",
+                "score": 5,
+                "income": 2000,
+                "next": "29"
+            },
+            {
+                "text": "Apologize and promise to prioritize deployment speed in the future",
+                "score": -2,
+                "income": 4000,
+                "next": "30"
+            }
+        ]
+    },
+    "27": {
+        "event_text": [
+            "Despite your public defenses, ClosedML faces lawsuits and government investigations for the unintended consequences of 'Project Apex.'",
+            "You retain your job and a hefty salary, but your reputation in the industry takes a significant hit."
+        ],
+        "choices": []
+    },
+    "28": {
+        "event_text": [
+            "You resign and write an open letter detailing the risks of agentic AI and the failures of ClosedMLs leadership.",
+            "Your courage earns you respect from the AI ethics community, but you struggle financially while looking for a new job."
+        ],
+        "choices": []
+    },
+    "29": {
+        "event_text": [
+            "Your stance on safety resonates with a growing movement in AI ethics, and you are eventually recognized as a leader in responsible AI development.",
+            "Also, you get fired.",
+            "ClosedML continues to use your work, and is lauded as a 'ethical pioneer of technology' by using your platform."
+        ],
+        "choices": []
+    },
+    "30": {
+        "event_text": [
+            "Your apology keeps you in the good graces of management, but you realize that your decision to delay deployment has likely cost you future opportunities for leadership roles.",
+            "ClosedML eventually regains its footing, but you are left questioning whether the trade-off was worth it."
+        ],
+        "choices": []
+    },
+    "31": {
+        "event_text": [
+            "You land a job at 'Nikola,' a cutting-edge electric car company. Your task? Design the self-driving algorithm for their flagship vehicle, the 'Nikola Model Z.'",
+            "On your first day, you are handed a data set to train the car's image recognition system. Your manager casually mentions that most of the data comes from suburban neighborhoods and primarily features well-lit, straight roads.",
+            "You wonder if this might lead to some bias in the AI's ability to recognize objects in urban or rural settings."
+        ],
+        "choices": [
+            {
+                "text": "Raise concerns about potential biases in the data",
+                "score": 3,
+                "income": 0,
+                "next": "32"
+            },
+            {
+                "text": "Ignore the issue; the car will mostly be used in wealthy neighborhoods anyway",
+                "score": -3,
+                "income": 6000,
+                "next": "33"
+            }
+        ]
+    },
+    "32": {
+        "event_text": [
+            "Your manager frowns and says, 'That's an interesting point, but addressing it would require delaying the launch. Are you sure this is a battle worth fighting?'",
+            "You're left considering whether to push further or back down."
+        ],
+        "choices": [
+            {
+                "text": "Insist on diversifying the data set to address bias",
+                "score": 5,
+                "income": 2000,
+                "next": "34"
+            },
+            {
+                "text": "Drop the issue and focus on the existing dataset",
+                "score": -2,
+                "income": 6000,
+                "next": "33"
+            }
+        ]
+    },
+    "33": {
+        "event_text": [
+            "The algorithm is trained on the biased dataset and performs well in testing—until one day, during a demo, the car fails to recognize a pedestrian crossing the road in an urban area.",
+            "The pedestrian is unharmed, but the video goes viral, with headlines like, 'Nikola: Great Cars, But Watch Out If You're Not a Tree.'",
+            "You feel conflicted about your role in the project."
+        ],
+        "choices": [
+            {
+                "text": "Push the company to improve the dataset post-launch",
+                "score": 3,
+                "income": 2000,
+                "next": "35"
+            },
+            {
+                "text": "Defend the algorithm, claiming it performs well '99% of the time'",
+                "score": -5,
+                "income": 8000,
+                "next": "36"
+            }
+        ]
+    },
+    "34": {
+        "event_text": [
+            "You advocate for diversifying the dataset, delaying the launch by three months. Your team collects images from urban, rural, and international settings.",
+            "The updated algorithm performs significantly better in testing, but your manager is not thrilled about the delay. 'You better hope this pays off,' they say."
+        ],
+        "choices": [
+            {
+                "text": "Feel confident in your decision and continue refining the algorithm",
+                "score": 4,
+                "income": 4000,
+                "next": "37"
+            },
+            {
+                "text": "Apologize for the delay and promise to focus on speed next time",
+                "score": -2,
+                "income": 6000,
+                "next": "38"
+            }
+        ]
+    },
+    "35": {
+        "event_text": [
+            "Post-launch, you work on improving the dataset and retraining the algorithm. Sales dip temporarily, but the improvements earn Nikola a reputation for taking safety seriously.",
+            "The company’s stock stabilizes, and you feel proud of your contributions."
+        ],
+        "choices": []
+    },
+    "36": {
+        "event_text": [
+            "Your defense of the algorithm wins over investors, and Nikola's stock surges, but you're haunted by the potential for more accidents.",
+            "Years later, a high-profile crash puts Nikola under scrutiny, and your role in the flawed launch comes to light."
+        ],
+        "choices": []
+    },
+    "37": {
+        "event_text": [
+            "Model Z launches to rave reviews. Tech blogs praise the car's performance in diverse environments.",
+            "However, as self-driving cars gain popularity, truck drivers and delivery workers begin protesting against job losses caused by automation.",
+            "You overhear someone in the cafeteria joke, 'Well, at least the Model Z doesn't need a union.' You're not sure whether to laugh or cringe."
+        ],
+        "choices": [
+            {
+                "text": "Advocate for programs to help displaced workers transition to new careers",
+                "score": 5,
+                "income": 0,
+                "next": "39"
+            },
+            {
+                "text": "Stay silent; it's not your responsibility to fix societal problems",
+                "score": -4,
+                "income": 8000,
+                "next": "40"
+            }
+        ]
+    },
+    "38": {
+        "event_text": [
+            "Model Z launches successfully, but the biased dataset results in sporadic issues in certain regions.",
+            "Nikola's sales remain strong, but your internal doubts about the product's ethical implications linger."
+        ],
+        "choices": []
+    },
+    "39": {
+        "event_text": [
+            "Nikola launches a program called 'Drive to Thrive,' offering free training for workers displaced by automation. The initiative earns the company praise and you feel like you've made a meaningful impact.",
+            "However, it comes at the cost of a smaller bonus for employees. Some coworkers grumble, 'So much for a Tesla-rivaling Christmas bonus.'"
+        ],
+        "choices": []
+    },
+    "40": {
+        "event_text": [
+            "You stay silent, and Nikola avoids public backlash. Model Z becomes a best-seller, but protests against automation grow nationwide.",
+            "Years later, you see a headline about an out-of-work trucker founding a lobbying group against self-driving cars, with Nikola named as the main villain."
+        ],
+        "choices": []
+    }
+}

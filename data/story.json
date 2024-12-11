@@ -1,0 +1,177 @@
+{
+    "0": {
+        "event_text": [
+            "You are a EECS new grad at Berkeley! Bright-eyed and bushy tailed, you are excited to \"make the world a better place\"",
+            "Unfortunately, the job market is in the shitter. You desparately need to get a job to prevent starvation. What ever will you do?"
+        ],
+        "choices" : [
+            {
+                "text": "Go to sleep. The situation will resolve itself",
+                "score" : 0,
+                "next" : "1" 
+            },
+            {
+                "text": "Attend career fair on Berkeley Campus",
+                "score" : 0,
+                "next" : "2"
+            },
+            {
+                "text": "Mass apply to every company you see",
+                "score" : 0,
+                "next" : "2"
+            }
+        ]
+    },
+    "1": {
+        "event_text": "You continue to be unemployed. The situation has not resolved itself. What do you do?",
+        "choices" : [
+            {
+                "text": "Go to sleep. The situation will resolve itself",
+                "score" : 0,
+                "next" : "1"
+            },
+            {
+                "text": "Mass apply to every company you see",
+                "score" : 0,
+                "next" : "todo"
+            }
+        ]
+    },
+    "2": {
+        "event_text": [
+            "You arrive at the career fair. some big companies like Apple, Google, and Microsoft are all there. Unfortuntely, the line in front of their tables are crowded with sweaty CS majors trying to resume drop",
+            "You see a deserted table with one bored looking engineer browsing his phone. It appears to be a startup. You approach him. He looks up in mild surprise.",
+            "\"Hey, you interested in 'Disrupti.fy.io.?' we are are a fast moving startup that is really looking to make a difference in food technology. We are a meal subscription service, delivering fresh vegan meals directly to your door!\"",
+            "He continues. \"We are looking for a full stack developer to help build our website! We offer, uh, relatively competitive salaries!\"",
+            "You hesistate, as you are not vegan. Money is money, however."
+        ],
+        "choices" : [
+            {
+                "text": "You quickly hide your chicken chipotle bowl. \"Yeah dude I'm totally interested in this position, I've been vegan since I was 12 years old! \"",
+                "score" : -1,
+                "income": 2000,
+                "next" : "3" 
+            },
+            {
+                "text": "You take out your chicken chipotle bowl, locking eyes while you spoon the food into your mouth while saying nothing.",
+                "score" : -1,
+                "income": 0,
+                "next" : "1" 
+            }
+        ]
+    },
+    "3": {
+        "event_text": [
+            "You are hired by Disrupti.fy.io.",
+            "You work for a couple months. The compensation isn't fantastic but it pays the bills. You continue eating chicken chipotle bowls.",
+            "One your manager calls you up to assign a new task",
+            "\"Hey, I need you to develop a new data pipeline to save our customers order history, as well as delivery addresses\".",
+            "She continues. \"By the way, its needs to be in this json format, since we are exporting this data out of house\"",
+            "You pause. Out of house? Where is this data going?"
+        ],
+        "choices" : [
+            {
+                "text": "You agree and build the pipelines without complaint.",
+                "score" : -4,
+                "income": 2000,
+                "next" : "4" 
+            },
+            {
+                "text": "\"Um, where is this data going?\"",
+                "score" : 1,
+                "income": 0,
+                "next" : "todo" 
+            },
+            {
+                "text": "\"Our privacy policy clearly states that we don't share user data. This seems highly suspect.\"",
+                "score" : 4,
+                "income": 0,
+                "next" : "todo" 
+            }
+        ]
+    },
+
+    "4" : {
+        "event_text": [
+            "Your work continues.",
+            "Your manager calls you up.",
+            "\"We need you to include a new page on our website detailing our commitment to enviromental safety, and how we are have shifted to using recyclable materials, yadda yadda.\"",
+            "Your manager shares a link of some icons and mockups with decorated with various green leaves, recycling symbols, etc.",
+            "You notice that the packaging on the products has not changed at all."
+        ],
+        "choices" : [
+            {
+                "text": "You agree and update the website without complaint.",
+                "score" : -4,
+                "income": 2000,
+                "next" : "5" 
+            },
+            {
+                "text": "\"We haven't changed our packaging. Would this be lying to our customers?\"",
+                "score" : -4,
+                "income": 2000,
+                "next" : "todo" 
+            }
+        ]
+    },
+    "5" : {
+        "event_text": [
+            "Over the past couple of months, sales were plummeting, but recently they have begun to increase.",
+            "One day while looking through user data, you notice a ton of reviews on the newest item and decide to read some.",
+            "Sabrina C., Palo Alto: \"The newest vegan meatloaf and potatoes actually tastes great! Just like my mom used to make!\"",
+            "Micheal L., Seattle: \"meatloaf takes just like the real thing\"",
+            "Xavier S., Cupertino: \"terrible company food is bad. only meatloaf decent\"",
+            "You decided to dig deeper and find a document in the company notion titled \"Project Meatloaf\"",
+            "Its meat.",
+            "The meatloaf is just straight up meat.",
+            "What do you do?"
+        ],
+        "choices" : [
+            {
+                "text": "\"Sales are up, and so is my salary! I'm not doing shit!\"",
+                "score" : -20,
+                "income": 6000,
+                "next" : "8" 
+            },
+            {
+                "text": "Leave the company",
+                "score" : 10,
+                "income": 0,
+                "next" : "7" 
+            },
+            {
+                "text": "Contact a news agency saying you have some important information to share",
+                "score" : -4,
+                "income": 2000,
+                "next" : "6"    
+            }
+        ]
+    },
+    "6" : {
+        "event_text": [
+            "You contact the news agency with your company email. The news agency never responds. Strange.",
+            "One night you come home and notice the door unlocked. You must have forgotten to lock the door.",
+            "You're relaxing on the couch watching TV when you hear movement from the closet.",
+            "A couple days later, the police discover your body hanging from the ceiling fan. Your death is ruled a suicide."
+        ],
+        "choices" : [
+        ]
+    },
+    "7" : {
+        "event_text": [
+            "You leave the company without explanation. You continue to live a bit off of your accumulated wealth.", 
+            "Eventually you have become so disenchanted with the industry that you move to Iowa and start a goose farm."
+        ],
+        "choices" : [
+        ]
+    },
+    "8" : {
+        "event_text": [
+            "With the influx of new sales, the company valuation skyrockets.",
+            "The inclusion of a new line of meals like \"Faux-Fish-Fingers\", \"Imitation-ImitationCrab\", and \"'Can't Believe its not Beef!' Bourguignon\" continue to fuel Disrupti.fy.io's rise.", 
+            "Your salary doubles, but you are left wondering: how long will this last?"
+        ],
+        "choices" : [
+        ]
+    }
+}
