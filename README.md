@@ -29,7 +29,7 @@ The game is designed to entertain while educating players about the importance o
    Open your terminal or command prompt and navigate to the root directory of the project.
 
    ```bash
-   cd your-repo-name
+   cd ethics-final
    ```
 
 3. **Run the Game**

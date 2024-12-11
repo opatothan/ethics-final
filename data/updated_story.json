@@ -1,7 +1,7 @@
 {
     "0": {
         "event_text": [
-            "You are a EECS new grad at Berkeley! Bright-eyed and bushy tailed, you are excited to \"make the world a better place\"",
+            "You are a EECS new grad at Berkeley! Bright-eyed and bushy tailed, you are excited to \"make the world a better place\".",
             "Unfortunately, the job market is in the shitter. You desparately need to get a job to prevent starvation. What ever will you do?"
         ],
         "choices": [
@@ -39,10 +39,10 @@
     },
     "2": {
         "event_text": [
-            "You arrive at the career fair. some big companies like Apple, Google, and Microsoft are all there. Unfortuntely, the line in front of their tables are crowded with sweaty CS majors trying to resume drop",
+            "You arrive at the career fair. some big companies like Apple, Google, and Microsoft are all there. Unfortuntely, the line in front of their tables are crowded with sweaty CS majors trying to resume drop.",
             "You see a deserted table with one bored looking engineer browsing his phone. It appears to be a startup. You approach him. He looks up in mild surprise.",
-            "\"Hey, you interested in 'Disrupti.fy.io.?' we are are a fast moving startup that is really looking to make a difference in food technology. We are a meal subscription service, delivering fresh vegan meals directly to your door!\"",
-            "He continues. \"We are looking for a full stack developer to help build our website! We offer, uh, relatively competitive salaries!\"",
+            "\"Hey, you interested in 'Disrupti.fy.io.?' we are are a fast moving startup that is really looking to make a difference in food technology. We are a meal subscription service, delivering fresh vegan meals directly to your door!\".",
+            "He continues. \"We are looking for a full stack developer to help build our website! We offer, uh, relatively competitive salaries!\".",
             "You hesistate, as you are not vegan. Money is money, however."
         ],
         "choices": [
@@ -53,7 +53,7 @@
                 "next": "3"
             },
             {
-                "text": "You take out your chicken chipotle bowl, locking eyes while you spoon the food into your mouth while saying nothing.",
+                "text": "You take out your chicken chipotle bowl, locking eyes while you spoon the food into your mouth while saying nothing",
                 "score": -1,
                 "income": 0,
                 "next": "1"
@@ -64,14 +64,14 @@
         "event_text": [
             "You are hired by Disrupti.fy.io.",
             "You work for a couple months. The compensation isn't fantastic but it pays the bills. You continue eating chicken chipotle bowls.",
-            "One your manager calls you up to assign a new task",
+            "One your manager calls you up to assign a new task.",
             "\"Hey, I need you to develop a new data pipeline to save our customers order history, as well as delivery addresses\".",
-            "She continues. \"By the way, its needs to be in this json format, since we are exporting this data out of house\"",
+            "She continues. \"By the way, its needs to be in this json format, since we are exporting this data out of house\".",
             "You pause. Out of house? Where is this data going?"
         ],
         "choices": [
             {
-                "text": "You agree and build the pipelines without complaint.",
+                "text": "You agree and build the pipelines without complaint",
                 "score": -4,
                 "income": 2000,
                 "next": "4"
@@ -100,7 +100,7 @@
         ],
         "choices": [
             {
-                "text": "You agree and update the website without complaint.",
+                "text": "You agree and update the website without complaint",
                 "score": -4,
                 "income": 2000,
                 "next": "5"
@@ -117,10 +117,10 @@
         "event_text": [
             "Over the past couple of months, sales were plummeting, but recently they have begun to increase.",
             "One day while looking through user data, you notice a ton of reviews on the newest item and decide to read some.",
-            "Sabrina C., Palo Alto: \"The newest vegan meatloaf and potatoes actually tastes great! Just like my mom used to make!\"",
-            "Micheal L., Seattle: \"meatloaf takes just like the real thing\"",
-            "Xavier S., Cupertino: \"terrible company food is bad. only meatloaf decent\"",
-            "You decided to dig deeper and find a document in the company notion titled \"Project Meatloaf\"",
+            "Sabrina C., Palo Alto: \"The newest vegan meatloaf and potatoes actually tastes great! Just like my mom used to make!\".",
+            "Micheal L., Seattle: \"meatloaf takes just like the real thing\".",
+            "Xavier S., Cupertino: \"terrible company food is bad. only meatloaf decent\".",
+            "You decided to dig deeper and find a document in the company notion titled \"Project Meatloaf\".",
             "Its meat.",
             "The meatloaf is just straight up meat.",
             "What do you do?"
@@ -173,7 +173,7 @@
     "9": {
         "event_text": [
             "You send out 100 applications in a single night using a tool you found online.",
-            "You end up with several interviews. You visit leetcode to check out common questions for each company",
+            "You end up with several interviews. You visit leetcode to check out common questions for each company.",
             "Unfortunately, you do not have much time, so you decide to choose one problem set to focus on. Which one do you focus on?"
         ],
         "choices": [
@@ -190,7 +190,7 @@
                 "next": "23"
             },
             {
-                "text": "'Nikola', a electric car company developing self driving algorithms",
+                "text": "'Nikola', a electric car company",
                 "score": 5,
                 "income": 0,
                 "next": "31"
@@ -265,13 +265,13 @@
         ],
         "choices": [
             {
-                "text": "Dive in enthusiastically, trusting the company's vision",
+                "text": "Dive in enthusiastically, trusting the company's vision.",
                 "score": -3,
                 "income": 5000,
                 "next": "14"
             },
             {
-                "text": "Ask for clarification about what 'optimizing employee efficiency' entails",
+                "text": "Ask for clarification about what 'optimizing employee efficiency' entails.",
                 "score": 2,
                 "income": 0,
                 "next": "15"
@@ -286,13 +286,13 @@
         ],
         "choices": [
             {
-                "text": "Continue working on the project; it's above your pay grade to question this",
+                "text": "Continue working on the project; it's above your pay grade to question this.",
                 "score": -8,
                 "income": 8000,
                 "next": "16"
             },
             {
-                "text": "Raise concerns with your manager about privacy violations",
+                "text": "Raise concerns with your manager about privacy violations.",
                 "score": 3,
                 "income": 0,
                 "next": "17"
@@ -307,13 +307,13 @@
         ],
         "choices": [
             {
-                "text": "Refuse to work on the project and request a reassignment",
+                "text": "Refuse to work on the project and request a reassignment.",
                 "score": 5,
                 "income": 0,
                 "next": "18"
             },
             {
-                "text": "Proceed cautiously, planning to monitor how the data is used",
+                "text": "Proceed cautiously, planning to monitor how the data is used.",
                 "score": 1,
                 "income": 4000,
                 "next": "14"
@@ -332,19 +332,19 @@
         ],
         "choices": [
             {
-                "text": "Ignore the journalist and keep your head down",
+                "text": "Ignore the journalist and keep your head down.",
                 "score": -10,
                 "income": 10000,
                 "next": "19"
             },
             {
-                "text": "Provide the journalist with anonymized data to expose the company",
+                "text": "Provide the journalist with anonymized data to expose the company.",
                 "score": -4,
                 "income": 2000,
                 "next": "20"
             },
             {
-                "text": "Resign and send an anonymous tip to the authorities",
+                "text": "Resign and send an anonymous tip to the authorities.",
                 "score": 8,
                 "income": 0,
                 "next": "21"
